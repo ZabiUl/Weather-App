@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'kenyan';
+    src: url(/kenyan\ coffee\ rg.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    background: url(/img/pexels-aleksandar-pasaric-325185.jpg);
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'kenyan';
+    letter-spacing: 4px;
+    margin: 3.5rem auto;
+}
+.weather-wrapper{
+    width: 100%;
+    border:none;
+    border-radius: 0.5rem;
+    margin-top: 1.7rem;
+    box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.3);
+    max-width: 350px;
+    margin: auto;
+}
+.weather-form{
+    max-width: 350px;
+    margin: 1rem auto;
+    text-align: center;
+}
+label{
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 1rem;
+}
+#location{
+    width: 100%;
+    font-size: 2rem;
+    padding: 0.8rem 1.8rem;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: #333;
+    color: #f1f1f1;
+}
+#location:focus{
+    border: 2px solid #acc944;
+}
+.timing-section{
+    width: 100%;
+    height: 300px;
+    background-color: #333;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.weather-icons{
+    border-radius: 50%;
+    outline: none;
+    background-color: rgb(221, 216, 216);
+    width: 150px;
+    position: relative;
+    left: 150px;
+}
+.temprature-section{
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    padding-top: 2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: rgb(250, 250, 235);
+}
+h3{
+    font-size: 2.8rem;
+    font-family: 'kenyan';
+    margin-top: 2rem;
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 3px;  
+}
+h5{
+    font-size: 1.4rem;
+    font-family: -webkit-pictograph;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    color: #333;   
+}
+h2, .temp{
+    font-size: 5.8rem;
+    font-family: 'kenyan';
+    margin-top: 3rem;
+    color: #333;
+    letter-spacing: 5px;
+    font-weight:lighter; 
+}
+.hide{
+    display: none;
+}
+body > div > div.timing-section > span{
+    border-radius: 50%;
+    width: 100px;
+    position: relative;
+    bottom: 63px;
+    left: 128px;
+    
+    
+}
+.timing-section span img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: -50px;
+    background-color: rgb(245, 251, 252);
+}
